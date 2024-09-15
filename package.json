@@ -1,8 +1,8 @@
 {
-  "name": "@dwidge/hooks-expo",
+  "name": "@osmiumtech/hooks-expo",
   "version": "0.0.1",
   "description": "A set of hooks for Expo.",
-  "repository": "github:dwidge/hooks-expo",
+  "repository": "github:osmiumtech/hooks-expo",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/types/index.d.ts",
