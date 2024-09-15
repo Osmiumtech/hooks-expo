@@ -1,6 +1,8 @@
 {
   "name": "@dwidge/hooks-expo",
   "version": "0.0.1",
+  "description": "A set of hooks for Expo.",
+  "repository": "github:dwidge/hooks-expo",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/types/index.d.ts",
@@ -16,7 +18,8 @@
     "src"
   ],
   "scripts": {
-    "prepare": "rimraf dist && ncp assets/ dist/ && tsc && tsc --project tsconfig.esm.json"
+    "prepare": "rimraf dist && ncp assets/ dist/ && tsc && tsc --project tsconfig.esm.json",
+    "test": "node --test"
   },
   "peerDependencies": {
     "@dwidge/country": "^0.0.1",
@@ -39,5 +42,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "packageManager": "pnpm@9.7.1",
+  "engines": {
+    "node": ">=20"
   }
 }
